@@ -3,9 +3,9 @@ the red team `IPython` shell 🧑‍💻
 
 ## installation
 ```bash
-pip3 install pipx # install pipx
-pipx ensurepath # ensure the pipx path
-pipx install git+https://github.com/idobarel/mosK.git # install the package
+git clone https://github.com/idobarel/mosK.git # download the git repo
+# run it using
+python3 mosK/mosK
 ```
 ## why IPython?
 It is just better. the fact you can run in a pythonic env allows you to: 
