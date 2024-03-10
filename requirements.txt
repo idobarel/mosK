@@ -1,0 +1,5 @@
+argparse
+rich
+IPython
+traitlets
+impacket @ git+https://github.com/fortra/impacket.git
