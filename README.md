@@ -3,9 +3,12 @@ the red team `IPython` shell 🧑‍💻
 
 ## installation
 ```bash
-git clone https://github.com/idobarel/mosK.git # download the git repo
+# clone the repo
+git clone https://github.com/idobarel/mosK.git && cd mosK
+# install requirements
+pip3 install -r requirements.txt
 # run it using
-python3 mosK/mosK
+python3 mosK
 ```
 ## why IPython?
 It is just better. the fact you can run in a pythonic env allows you to: 
