@@ -6,12 +6,12 @@ def get_args():
     return parser.parse_args()
 
 def main():
-    from .lib.target import Console
+    from lib.target import Console
     console = Console()
     console.log("importing libraries...")
-    from .lib.target import Target, TARGETS
-    from .lib.utils import DPAPI, Chrome
-    from .lib.executors.execwmi import ExecWMI
+    from lib.target import Target, TARGETS
+    from lib.utils import DPAPI, Chrome
+    from lib.executors.execwmi import ExecWMI
     import IPython
     from traitlets.config import get_config
     args = get_args()
