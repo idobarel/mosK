@@ -1,1 +1,1 @@
-from mosK import lib
+import mosK.lib
